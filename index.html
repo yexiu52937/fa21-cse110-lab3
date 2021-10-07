@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="Lab3CSS.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meeting Minutes</title>
@@ -19,7 +20,7 @@
             <img
                 src="https://i2.wp.com/studeo.com.au/wp-content/uploads/2019/12/0016-STU-Studeo-Brainstorm-Blog-Main.jpg?fit=1200%2C628&ssl=1"
                 alt="Brainstorm"
-                width="500"
+                class="imgWidth"
             />
             <h2 id="date">10/2/2021</h2>
             <h3 id="Agenda">Agenda</h3>
@@ -34,7 +35,7 @@
             
             <h4 id="discussion">discussion</h4> 
             <section>
-                <p>
+                <p attribute="try">
                     In this section, we are going to <strong>discuss</strong>
                     the ideas.
                     </p>
@@ -70,7 +71,7 @@
                 </p>
 
             </section>
-            <h3 id="check-ins">check-ins</h3>
+            <h3 id="check-ins" class="checkInList">check-ins</h3>
             <ol>
                 <li><input type="checkbox" /> Alice</li>
                 <li><input type="checkbox" /> Jenny</li>
@@ -117,10 +118,10 @@
 
         <footer>
             <form>
-                <label for="name">Your Name:</label>
+                <label for="name" class="Submitted">Your Name:</label>
                 <input type="text" id="name" name="name" />
                 <button>Submit</button><br>
-                <label for="todaysDate">Date of Today:</label>
+                <label for="todaysDate" class="Submitted">Date of Today:</label>
                 <input type="date" id="todaysDate" name="todaysDate" />
                 <button>Submit</button>
             </form>

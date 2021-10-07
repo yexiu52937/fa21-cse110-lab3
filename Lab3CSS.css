@@ -1,0 +1,44 @@
+h1 {
+    color: rebeccapurple;/*change the color of the title to rebeccapurple*/
+    background-color: yellow;
+}
+
+#date {
+    color: hsl(10 100% 50% / 0.6);
+}
+
+* {
+    background-color: #AACCBB;
+}
+
+.checkInList {
+    background-color: greenyellow;
+}
+
+[attribute=try] {
+    color: #a72d6a;
+}
+
+h3, h4 {
+    color:rgb(60, 8, 27, 0.7);
+}
+
+ul li {
+    color: blue;
+}
+
+ol > li {
+    color: blueviolet;
+}
+
+h2 ~ h3 {
+    background-color: burlywood;
+}
+
+h3 + h4 {
+    background-color: aquamarine;
+}
+
+label.Submitted {
+    background-color: azure;
+}

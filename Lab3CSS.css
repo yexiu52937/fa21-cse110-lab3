@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 h1 {
     color: rebeccapurple;/*change the color of the title to rebeccapurple*/
     background-color: yellow;
+    text-decoration: red wavy underline;
+    font-family: 'Ephesis', cursive;
+}
+
+p {
+    text-decoration: underline;
+    text-align: start;
+    font-family: ;
 }
 
 #date {
@@ -42,3 +52,74 @@ h3 + h4 {
 label.Submitted {
     background-color: azure;
 }
+
+h1:hover {
+    width: 30rem;
+}
+
+.imgSize {
+    width: 20cm;
+    height: 300pt;
+    border: 2px solid white;
+    margin-top: 1cm;
+    margin-bottom: 40px;
+    margin-left: 1in;
+    margin-right: 10vh;
+}
+
+h1 {
+    width: 100vw;
+    height: 10vh;
+    min-width: 50px;
+    max-width: 1000px;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    padding-left: 10vw;
+    padding-right: 30vw;
+}
+
+h3 {
+    margin: 50px 10pt 2cm 1in;
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    text-align: end;
+    display: none;
+}
+
+h4 {
+    padding: 20px 30pt 40px 30pt;
+    display: inline-block;
+}
+
+h4:active {
+    color: aqua;
+}
+
+video {
+    border-top: antiquewhite;
+    border-bottom: black;
+    border-left: blue;
+    border-right: brown;
+    border-radius: 3pc;
+    border-style: dotted;
+    border-width: 5pt;
+
+    position: static;
+}
+
+audio {
+    position: relative;
+    top: 3px; left: 30px;
+}
+
+ol {
+    display: flex;
+}
+
+ul {
+    display: grid;
+}
+
